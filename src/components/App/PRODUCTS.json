@@ -1,0 +1,27 @@
+[
+ 
+  {
+    "id": "a4168ba0-be35-4d39-8da1-9a6d0ee2e760",
+    "name": "iphone 12",
+    "image": "https://saramadmobile.com/wp-content/uploads/2021/07/71fVoqRC0wL.jpg",
+    "price": "1780$"
+  },
+  {
+    "id": "8495f61e-3ae1-4c16-bb63-beea3a9e753b",
+    "name": "iphone Xs Max",
+    "image": "https://cdn.alloallo.media/catalog/product/apple/iphone/iphone-xs-max/iphone-xs-max-gold.jpg",
+    "price": "1300$"
+  },
+  {
+    "id": "748ec57f-ac70-4fb5-bfa9-2f6f623bea2a",
+    "name": "iphone 13",
+    "image": "https://itsalat.ir/uploads/products/13star-min.jpg",
+    "price": "2530$"
+  },
+  {
+    "id": "b7eaf4fd-ece8-4ebe-8ab2-ae6358918bfd",
+    "name": "iphone 13Pro Max",
+    "image": "https://istore.lt/media/catalog/product/i/p/iphone_13_pro_max_sierra_blue.jpg",
+    "price":"3100$"
+  }
+]
