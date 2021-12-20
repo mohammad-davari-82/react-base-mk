@@ -1,19 +1,26 @@
-import React from "react";
 import "./Product.css";
+import axios from "axios";
+import React,{useState,useEffect} from "react";
 import ProductItem from "../ProductItem/ProductItem"
 
-const Products = (props) => (
-    <>
-    <div  key={props.data.id} className="row justify-content-center">
-            {props.data.map((item)=>( 
-                <ProductItem item={item}/>
-            ))}
-    </div>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-
-    </>
-);
+const Products = () => {
+    useEffect(() => {
+        getData()
+    }, [])
+    const[products, setProducts] = useState([])
+    const getData = () => {
+        axios.get(`http://localhost:8000/prodcts`)
+        .then((response) => setProducts(response.data))
+    }
+    return(
+        <>
+        <div  className="row justify-content-center">
+                {products.map((item)=>( 
+                    <ProductItem item={item}/>
+                ))}
+        </div>
+        </>
+    );
+    
+}
 export default Products;

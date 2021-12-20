@@ -1,9 +1,11 @@
 {
   "prodcts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+    "price":"3100$",
+    "title": "iphone 13Pro Max",
+    "id": "b7eaf4fd-ece8-4ebe-8ab2-ae6358918bfd",
+    "image": "https://istore.lt/media/catalog/product/i/p/iphone_13_pro_max_sierra_blue.jpg",
+    "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis aliquam urna, sit amet tincidunt enim. Nunc euismod turpis quis tempus auctor. Quisque vulputate risus et odio interdum, eu ultricies lacus ultrices. Nullam ut lorem a est interdum mollis ac sed nisl. Proin mollis sem sed turpis venenatis pharetra. Vestibulum a dictum lorem. Vestibulum accumsan lacinia leo, nec porttitor metus consequat nec. Vestibulum at volutpat dui. Cras id dapibus velit, sed cursus dui. Proin placerat eleifend turpis, et cursus justo commodo at. In vestibulum eros ac pretium pulvinar. Ut ac nulla in enim ultricies ultrices ac at eros. Curabitur dictum aliquet diam vitae gravida."
     }
   ]
 }
